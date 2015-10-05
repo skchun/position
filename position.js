@@ -1,8 +1,12 @@
-/**
- * Created by Sam on 10/4/2015.
- */
-var testArray = [1,3,5,6];
+/* exported position */
 
+/**
+ * position takes in a sorted array of integers and returns the index of the value
+ * found in the array.  If value is not in the array, it returns the index where it should be.
+ * @param array is a sorted array of integers
+ * @param value is what we want to find in the array
+ * @returns {number}
+ */
 function position(array,value) {
   for (var i = 0; i < array.length; i++) {
     if (array[i] === value || array[i] > value) {
@@ -11,7 +15,3 @@ function position(array,value) {
   }
   return i;
 }
-console.log(position(testArray,5));
-console.log(position(testArray,2));
-console.log(position(testArray,7));
-console.log(position(testArray,0));
