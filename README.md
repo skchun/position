@@ -15,7 +15,7 @@ Provide the following scripts in your html file:
 # Usage
 
 Here is an example call to the function
-![screenshot](https://raw.githubusercontent.com/skchun/position/master/doc/position-test-screen.png)
+![screenshot](https://raw.githubusercontent.com/skchun/position/master/doc/position-test-screen.PNG)
 
 Consult the position.js file for more details on this function.
 
